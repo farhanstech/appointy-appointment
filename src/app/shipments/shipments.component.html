@@ -1,0 +1,21 @@
+<section>
+	<div class="form-heading"><h3>Some More Details</h3></div>
+	<br>
+	<form>
+	    <div class="form-group">
+	      <input type="text" class="form-control" name="cname" placeholder="Company Name" [(ngModel)]="cname">
+	    </div>
+	  <div class="form-group">
+	    <select class="form-control" name="shipments" [(ngModel)]="shipments">
+	      <option>No. of Shipments</option>
+	      <option>1</option>
+	      <option>2</option>
+	      <option>3</option>
+	      <option>4</option>
+	      <option>5</option>
+	    </select>
+	  </div>
+	  <button type="button" class="btn btn-primary prev" (click)="redirectTo('userdata')">Back</button>
+	  <button type="button" class="btn btn-primary next" (click)="setData()">Next</button>
+	</form>
+</section>

@@ -1,0 +1,66 @@
+.next{
+	float: right;
+	margin-top: 10px;
+}
+.prev{
+	float: left;
+	margin-top: 10px;
+}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.calendar{
+width: 700px;
+margin: 0 auto;
+color: #fff;
+}
+.month {
+    padding: 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    list-style: none;
+}
+
+/* Previous button inside month header */
+.month .prev-btn {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next-btn {
+    float: right;
+    padding-top: 10px;
+}
+.dates{
+	width: 100px;
+	height: 50px;
+	border: 1px solid #1abc9c;
+	display: block;
+	float:left;
+	padding-top: 10px;
+}
+.dayno{
+	font-size: 20px;
+	cursor: pointer;
+}
+.prev-btn,.next-btn{
+	cursor: pointer;
+}
+#myModal td{
+    cursor: pointer;
+}

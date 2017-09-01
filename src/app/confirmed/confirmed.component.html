@@ -1,0 +1,32 @@
+
+<section id="sixth">
+	<div class="form-heading"><h3>Thank You</h3></div>
+	<br>
+	<div class="card">
+	  <h4 class="card-header">Your Booking is confirmed</h4>
+	  <div class="card-body">
+	  	<table cellpadding="10">
+	  		<tr>
+	  			<td>
+	  				<div class="panel panel-success">
+					  <div class="panel-body">
+					    {{this.ds.momentObj.format('MMMM')}}
+					  </div>
+					  <div class="panel-footer">{{this.ds.momentObj.format('Do')}}</div>
+					</div>
+	  			</td>
+	  			<td>
+	  				The booking details will be sent to your email.
+					<br><b>Time:</b>
+					<span id="td-final-date">{{this.ds.momentObj.format('MMMM Do YYYY')}} @ {{this.ds.selectedTime}}</span>
+					<br><b>Service:</b>
+					<span id="td-final-service">{{this.ds.selectedServices}} with {{this.ds.selectedAgents}}</span>
+					<br>Confirmed appointments can be cancelled 24 hours prior to the appointment time.
+	  			</td>
+	  		</tr>
+	  	</table>
+	    
+	  </div>
+	</div>
+	<a href="" (click)="redirectTo('services')" style="float: right;">Click here to make another booking.</a>
+</section>

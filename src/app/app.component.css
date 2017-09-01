@@ -1,0 +1,77 @@
+h2{
+	color: #fff!important;
+}
+a,a:hover{
+	text-decoration: none;
+}
+#wrapper{
+	height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.accordion-content{
+	background:rgba(34,34,34,0.75);
+	padding: 20px;
+	max-height: 500px;
+	overflow: hidden;
+	margin-top: 100px; 
+}
+.form-heading{
+	color: #fff;
+}
+.user-list{
+	padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    cursor: pointer;
+    margin-top: 2px;
+}
+.user-list:hover{
+    background-color: #939393;
+}
+.active{
+	background-color: #007bff;
+}
+
+.user-list img{
+	height: 32px;
+	width: 32px;
+}
+.ui-widget-content {
+    border: 0!important;
+}
+.user-list h5{
+	display: inline;
+    margin-left: 10px;
+}
+.user-list-container{
+	overflow-y:scroll;
+	max-height: 400px;
+}
+.accordion-content button.next{
+	float: right;
+	margin-top: 10px;
+}
+.accordion-content button.prev{
+	float: left;
+	margin-top: 10px;
+}
+#third,#fourth{
+	max-width: 400px;
+	margin: 0px auto;
+}
+#calendar {
+		max-width: 900px;
+		margin: 0 auto;
+		background-color: #fff;
+	}
+
+#second{
+	max-height: 450px;
+	overflow-y: scroll;
+}
+#myModal td{
+	cursor: pointer;
+}

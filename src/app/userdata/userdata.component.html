@@ -1,0 +1,21 @@
+<section>
+	<div class="alert alert-info" role="alert">
+	  YOUR APPOINTMENT IS TEMPORARILY SAVED AND IT WILL BE BOOKED AFTER YOU FILL AND VERIFY YOUR INFORMATION
+	</div>
+	<form>
+	  <div class="form-group">
+	    <input type="text" class="form-control" name="fname" placeholder="First Name" [(ngModel)]="fname">
+	  </div>
+	  <div class="form-group">
+	    <input type="text" class="form-control" name="lname" placeholder="Last Name" [(ngModel)]="lname">
+	  </div>
+	  <div class="form-group">
+	    <input type="text" class="form-control" name="contact" placeholder="Mobile" [(ngModel)]="contact">
+	  </div>
+	  <div class="form-group">
+	    <input type="email" class="form-control" name="email" placeholder="Email" [(ngModel)]="email">
+	  </div>
+	  <button type="button" class="btn btn-primary prev" (click)="redirectTo('calendar')" >Back</button>
+	  <button type="button" class="btn btn-primary next" (click)="setUserData()">Next</button>
+	</form>
+</section>
